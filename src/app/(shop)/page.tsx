@@ -32,7 +32,7 @@ export default async function Home({ searchParams }: Props) {
       <Title
         title="Tienda"
         subtitle="Todos los productos"
-        className="mb-2"
+        className="mb-2"  //cuando sea mobile mostrar con mas espacio
       />
 
       <ProductGrid 
