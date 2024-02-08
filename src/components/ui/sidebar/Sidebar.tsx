@@ -74,16 +74,16 @@ export const Sidebar = () => {
               onClick={() => closeMenu()}
               className="flex items-center mt-5 p-2 hover:bg-gray-100 rounded transition-all"
             >
-              <IoPersonOutline size={30} />
+              <IoPersonOutline size={20} />
               <span className="ml-3 text-xl">Perfil</span>
             </Link>
 
             <Link
               href="/orders"
               onClick={() => closeMenu()}
-              className="flex items-center mt-10 p-2 hover:bg-gray-100 rounded transition-all"
+              className="flex items-center mt-5 p-2 hover:bg-gray-100 rounded transition-all"
             >
-              <IoTicketOutline size={30} />
+              <IoTicketOutline size={20} />
               <span className="ml-3 text-xl">Ordenes</span>
             </Link>
           </>
@@ -91,10 +91,10 @@ export const Sidebar = () => {
 
         {isAuthenticated && (
           <button
-            className="flex w-full items-center mt-10 p-2 hover:bg-gray-100 rounded transition-all"
+            className="flex w-full items-center mt-5 p-2 hover:bg-gray-100 rounded transition-all"
             onClick={() => logout()}
           >
-            <IoLogOutOutline size={30} />
+            <IoLogOutOutline size={20} />
             <span className="ml-3 text-xl">Salir</span>
           </button>
         )}
