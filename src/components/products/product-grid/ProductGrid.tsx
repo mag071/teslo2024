@@ -8,7 +8,7 @@ interface Props {
 
 export const ProductGrid = ( { products }: Props ) => {
   return (
-    <div className="ml-10 mr-10 grid grid-cols-2 sm:grid-cols-3 gap-10 mb-10 m-10 ">
+    <div className="ml-3 mr-3 grid grid-cols-2 sm:grid-cols-3 gap-10 mb-7 ">
 
       {
         products.map( product => (
